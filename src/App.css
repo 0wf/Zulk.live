@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela+Round&display=swap);
+
+.google {
+  font-family: "Varela Round", sans-serif;
+}
+.xxs {
+  max-width: 12rem;
+}
+
+.small-title-h {
+  height: 10vh;
+}
+
+.mobile-height {
+  height: 80vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.title-bar {
+  position: absolute;
+  top: 10vh;
+}
+.delete-pos-mobile {
+  position: fixed;
+  bottom: 3vh;
+  right: 1vw;
+  -webkit-transform: translateZ(0);
+  z-index: 999;
+}
+
+@media screen and (min-width: 767px) {
+  .delete-pos-mobile {
+    position: fixed;
+    bottom: 2vh;
+    right: 50vw;
+    -webkit-transform: translateZ(0);
+    z-index: 999;
+  }
+}
+@media screen and (max-width: 300px) {
+  .delete-pos-mobile {
+    position: fixed;
+    bottom: 3vh;
+    right: 0vw;
+    -webkit-transform: translateZ(0);
+    z-index: 999;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .mobile-height {
+    height: 75vh;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+  }
+  .large-footer {
+    height: 15vh;
+  }
+}
+
+.negative-z {
+  z-index: -1;
+}
+
+.button-bg {
+  background-color: #102e4a;
+  opacity: 0.85;
+}
+.button-bg:hover {
+  opacity: 1;
+}
+
+.send-pos {
+  position: absolute;
+  bottom: 3vh;
+  right: 6.5vh;
+}
+
+.h10 {
+  height: 10vh;
+}
+
+input {
+  width: 88%;
+}
+
+input-width {
+  width: 80%;
+}
+
+.cool-background {
+  background-image: linear-gradient(to right, #102e4a, #7f7979);
+}
+
+.cool-background-sign-in {
+  background-image: linear-gradient(135deg, #102e4a, #7f7979);
+}
+
+body {
+  background-color: #0c1e31;
+}
+
+@media screen and (min-width: 767px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #081421;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #102e4a;
+    border-radius: 25px;
+  }
+}
